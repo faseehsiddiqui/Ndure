@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden;
+}
+.footer>ul>li{
+    position: relative;
+    }
+    .footer>ul>li::after{
+        position:absolute;
+        content: "";
+        width: 0%;
+        height: 2px;
+        left: 0%;
+        bottom:0px;
+        background-color: #9F2A48;
+        transition-duration: 1s;
+        text-align: center;
+        }
+        .footer>ul>li:hover::after{
+            width: 100%;
+        }
+        .footer>ul>li:hover{
+            color: #9F2A48;
+    
+        }
+        .h4{
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .one_two{
+            width: 50%;
+        }
+        @media screen and (min-width:200px) and (max-width:500px) {
+            .one_two{
+                width: 100%;
+            }
+        }
+        @media screen and (min-width:500px) and (max-width:700px) {
+            .one_two{
+                width: 80%;
+            }
+        }

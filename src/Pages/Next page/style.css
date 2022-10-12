@@ -1,0 +1,195 @@
+.img14{
+    background-image: url(../../Assets/images/Home/img1.webp);
+    background-size: 100% 100%;
+    height: 40vh;
+    transition-duration: 1s;
+}
+.img14:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/Home/img1.webp) ;
+
+}
+.img15{
+    background-image: url(../../Assets/images/Home/img2.webp);
+    background-size: 100% 100%;
+    transition-duration: 1s;
+    height: 40vh;
+}
+.img15:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/Home/img2.webp) ;
+
+}
+.over{
+    overflow: hidden;
+}
+.ov{
+    overflow-x: scroll;
+    width: 98;
+}
+.nd{
+    width: 93%;
+}
+/* .img22{
+    background-image: url(../../Assets/images/menpage/boy1.webp);
+    background-size: 100% 100%;
+    height: 47vh;
+    transition-duration: 1s;
+}
+.img22:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/menpage/boy1.webp) ;
+}
+.img23{
+    background-image: url(../../Assets/images/menpage/boy2.webp);
+    background-size: 100% 100%;
+    height: 47vh;
+    transition-duration: 1s;
+}
+.img23:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/menpage/boy2.webp) ;
+
+}
+.img24{
+    background-image: url(../../Assets/images/menpage/boy3.webp);
+    background-size: 100% 100%;
+    height: 47vh;
+    transition-duration: 1s;
+}
+.img24:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/menpage/boy3.webp) ;
+
+}
+.img25{
+    background-image: url(../../Assets/images/menpage/boy4.webp);
+    background-size: 100% 100%;
+    height: 47vh;
+    transition-duration: 1s;
+}
+.img25:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/menpage/boy4.webp) ;
+
+}
+.img26{
+    background-image: url(../../Assets/images/menpage/boy5.webp);
+    background-size: 100% 100%;
+    height: 47vh;
+    transition-duration: 1s;
+}
+.img26:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/menpage/boy5.webp) ;
+
+}
+.img27{
+    background-image: url(../../Assets/images/menpage/boy6.webp);
+    background-size: 100% 100%;
+    height: 47vh;
+    transition-duration: 1s;
+}
+.img27:hover{
+    transform: scale(1.1);
+   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../Assets/images/menpage/boy6.webp) ;
+
+}
+.img28{
+    height: 80vh;
+    background-image: url(../../Assets/images/Home/foot.webp);
+    background-size: 100% 100%;
+} */
+.btn2{
+    /* background-color: white; */
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 30%;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+.cng{
+    overflow: hidden;
+}
+.png{
+    transition-duration: 1s;
+}
+.cng:hover .png{
+    transform: scale(1.1);
+}
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    height: 83vh;
+    /* border: 3px solid #000; */
+}
+.over{
+    overflow: hidden;
+}
+.imgtohover{
+    transition-duration: 1s;
+}
+.imgtohover:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+.hero>img{
+    height: 100%;
+    width: 100%;
+}
+.Btn-group {
+    position: absolute;
+    padding-top: 350px;
+    width: 40%;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and  (min-width:200px) and (max-width:500px){
+    .btn_groupinfo{
+        padding-top: 150px;
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn2{
+        width: 80%;
+    }
+    .hero{
+        height: 40vh;
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px){
+    .btn_groupinfo{
+        padding-top: 250px;
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .btn2{
+        width: 80%;
+    }
+    .hero{
+        height: 60vh;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1000px){
+    .btn_groupinfo{
+        padding-top: 350px;
+        width: 40%;
+        display: flex;;
+        justify-content: space-around;
+    }
+    .btn2{
+        width: 80%;
+    }
+    .hero{
+        height: 70vh;
+    }   
+}

@@ -1,0 +1,44 @@
+.para1{
+    font-size: .7rem;
+}
+.dan{
+    background-color: #9F2A48;
+}
+.stick{
+    position: sticky !important;
+    top: 0 !important ;
+    /* background-color: white; */
+    z-index: 111;
+    /* border-bottom: silver; */ 
+    /* border: 2px solid #000; */
+}
+.li
+{
+    /* border: 1px solid red;    */
+    position: relative;
+    padding: 3px 0px;
+}
+.li::after
+{
+    content: "";
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    transition-duration: .5s;
+}
+.li:hover::after
+{
+    width: 100%;
+}
+.p1{
+    color: silver;
+    font-size: 1rem;
+    left: 10%;
+    position: relative;
+}
+.p1:hover{
+    color: grey;
+}

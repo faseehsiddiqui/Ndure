@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.pr_p1{
+    font-size: 3rem;
+    /* font-weight: bold; */
+}
+.pr_same{
+    font-size: .8rem;
+}
+.over_act{
+    overflow: hidden;
+}
+.product_hover{
+    transition-duration: 1s;
+}
+.product_hover:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
